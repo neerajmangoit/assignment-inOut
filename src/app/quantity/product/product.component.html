@@ -1,0 +1,7 @@
+<div class="col-6 mx-5 my-3">
+<label for="item-input">Enter quantity:</label>
+<input class="form-control my-2" type="number" id="item-input" #newItem>
+<button class="btn btn-warning" (click)="addNewItem(newItem.value)">Add</button>
+
+<p class="my-2">Total amount {{total}}</p>
+</div>

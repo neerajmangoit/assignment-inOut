@@ -1,0 +1,8 @@
+<app-product (newItemEvent)="addItem($event)" [total]="amount"></app-product>
+<div>
+<div class="col-6 mx-5 my-3">
+  <p>Quantity: {{quantity}} </p>
+    <button class="btn btn-success" (click)="increase()">Increase</button>
+    <button class="btn btn-danger mx-2" (click)="decrease()">Decrease</button>
+  </div>
+</div>
